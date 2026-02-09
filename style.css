@@ -9,3 +9,16 @@ form {
   padding: 20px;
   width: 250px;
 }
+input {
+  width: 100%;
+  padding: 6px;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  background-color: #333;
+  color: white;
+  border: none;
+}
+
