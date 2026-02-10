@@ -21,4 +21,11 @@ button {
   color: white;
   border: none;
 }
+label {
+  font-weight: bold;
+}
+
+p {
+  color: #666;
+}
 
