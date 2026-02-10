@@ -28,4 +28,8 @@ label {
 p {
   color: #666;
 }
+input:focus {
+  outline: none;
+  border: 2px solid #333;
+}
 
