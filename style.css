@@ -32,4 +32,9 @@ input:focus {
   outline: none;
   border: 2px solid #333;
 }
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: gray;
+}
 
