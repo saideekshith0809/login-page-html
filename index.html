@@ -26,5 +26,23 @@
 </div>
 
 </body>
-  
+  <script>
+function togglePass() {
+  var x = document.getElementById("password");
+  x.type = (x.type === "password") ? "text" : "password";
+}
+
+function checkStrength(){
+  var val = document.getElementById("password").value;
+  var strength = 0;
+
+  if(val.length > 5) strength += 30;
+  if(/[A-Z]/.test(val)) strength += 30;
+  if(/[0-9]/.test(val)) strength += 20;
+  if(/[^A-Za-z0-9]/.test(val)) strength += 20;
+
+  document.getElementById("strength").value = strength;
+}
+</script>
+
 </html>
