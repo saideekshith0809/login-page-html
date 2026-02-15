@@ -1,51 +1,58 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  padding: 40px;
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
 }
 
-form {
-  background: white;
-  padding: 20px;
-  width: 250px;
+.card {
+  width: 320px;
+  padding: 40px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  border: 1px solid rgba(255,255,255,0.2);
+  color: white;
 }
-input {
+
+.input-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.input-box input {
   width: 100%;
-  padding: 6px;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid cyan;
+  color: white;
+  outline: none;
+}
+
+.input-box label {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  transition: 0.3s;
+}
+
+.input-box input:focus + label,
+.input-box input:valid + label {
+  top: -15px;
+  font-size: 12px;
+  color: cyan;
 }
 
 button {
   width: 100%;
-  padding: 8px;
-  background-color: #333;
-  color: white;
+  padding: 12px;
+  background: cyan;
   border: none;
-}
-label {
+  border-radius: 8px;
   font-weight: bold;
+  cursor: pointer;
 }
-
-p {
-  color: #666;
-}
-input:focus {
-  outline: none;
-  border: 2px solid #333;
-}
-button:hover {
-  background-color: #555;
-}
-a {
-  text-decoration: none;
-  color: #4CAF50;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-label {
-  font-size: 14px;
-}
-
-
