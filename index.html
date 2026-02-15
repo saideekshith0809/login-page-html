@@ -44,6 +44,13 @@ function checkStrength(){
 
   document.getElementById("strength").value = strength;
 }
+    function loading(btn){
+  btn.innerHTML = "Loading...";
+  setTimeout(function(){
+    btn.innerHTML = "Login Successful!";
+  },2000);
+}
+
 </script>
 
 </html>
