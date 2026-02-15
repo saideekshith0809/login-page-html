@@ -1,38 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Login Page</title>
+  <title>Glass Login</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Login</h1>
+<div class="card">
+  <h2>Login</h2>
 
-  <form>
-    <input type="text" placeholder="Username"><br><br>
-    <input type="password" placeholder="Password"><br><br>
-    <button type="button">Login</button>
-  </form>
-<p>Please enter your credentials to continue</p>
-<form>
-  <label>Username</label><br>
-  <input type="text" placeholder="Enter username"><br><br>
+  <div class="input-box">
+    <input type="text" required>
+    <label>Username</label>
+  </div>
 
-  <label>Password</label><br>
-  <input type="password" placeholder="Enter password"><br><br>
+  <div class="input-box">
+    <input type="password" required>
+    <label>Password</label>
+  </div>
 
-  <button type="button">Login</button>
-</form>
-<footer>
-  <p>© 2026 Login Page</p>
-</footer>
-<input type="text" placeholder="Enter username">
-<input type="password" placeholder="Enter password">
-<input type="checkbox" onclick="togglePassword()"> Show Password<br><br>
-
-<input type="checkbox" id="remember">
-<label for="remember">Remember Me</label><br><br>
+  <button>LOGIN</button>
+</div>
 
 </body>
 </html>
