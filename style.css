@@ -56,3 +56,13 @@ button {
   font-weight: bold;
   cursor: pointer;
 }
+.input-box {
+  position: relative;
+}
+
+.input-box span {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  cursor: pointer;
+}
