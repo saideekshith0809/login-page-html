@@ -6,6 +6,9 @@ body {
   justify-content: center;
   align-items: center;
   font-family: Arial;
+    font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4CAF50, #81C784);
+  padding: 40px;
 }
 
 .card {
