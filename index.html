@@ -226,7 +226,10 @@ async function register() {
     btn.disabled = false;
   }
 }
-
+if (!username.includes("@") || !username.includes(".")) {
+  showError("Enter valid email");
+  return;
+}
 </script>
 
 </body>
