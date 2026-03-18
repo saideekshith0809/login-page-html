@@ -93,3 +93,7 @@ button:disabled {
   margin: 10px 0;
   font-size: 14px;
 }
+input:focus {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
