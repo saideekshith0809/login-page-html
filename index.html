@@ -138,7 +138,14 @@
     Already have an account? <a href="/">Login</a>
   </div>
 </div>
+<span onclick="togglePassword()">👁️</span>
 
+<script>
+function togglePassword() {
+  const input = document.getElementById("password");
+  input.type = input.type === "password" ? "text" : "password";
+}
+</script>
 <script>
 
 const passwordInput = document.getElementById("password");
